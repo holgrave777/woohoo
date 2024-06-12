@@ -301,17 +301,6 @@ if __name__ == "__main__":
     CONFIG_showLock   = DATA['showLockd']
 
     system("cls||clear")
-
-    a = fg("#babaf8")
-    b = fg("#7c7cf8")
-    c = fg("#3e3ef8")
-    r = attr(0)
-
-    print(f"""
-        {a}┬  ┬  ┌─┐  ┌─┐  ┌┬┐
-        {b}└┐┌┘  ├─┤  └─┐   │    (free version)
-        {c} └┘   ┴ ┴  └─┘   ┴ 
-    """ + r)
     
     try:
         Thread(target=ConsoleX.titleThread).start()
